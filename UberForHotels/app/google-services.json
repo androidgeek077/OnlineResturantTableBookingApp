@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "21209028058",
+    "firebase_url": "https://uberforhotels-cbda0.firebaseio.com",
+    "project_id": "uberforhotels-cbda0",
+    "storage_bucket": "uberforhotels-cbda0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21209028058:android:48517197d093f48576dce3",
+        "android_client_info": {
+          "package_name": "app.techsol.uberforhotels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21209028058-8c35oq1ii82ni5826tavq1ddeb8uvhlt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.techsol.uberforhotels",
+            "certificate_hash": "331951b7558c76aa5a2a1c0c4d0e9c25c323a93b"
+          }
+        },
+        {
+          "client_id": "21209028058-ftlb7ioqsbm5acpsqlmp82tq7e2iktkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHJRGlGUbMSOcFYipNJ-sdhLyxK3o8t60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21209028058-ftlb7ioqsbm5acpsqlmp82tq7e2iktkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
