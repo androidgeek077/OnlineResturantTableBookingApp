@@ -3,87 +3,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1">
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/addHotelCV"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            android:layout_weight="1">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:padding="35dp"
-                    android:src="@drawable/ic_add" />
-                <View
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#000" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight=".2"
-                    android:gravity="center"
-                    android:text="Add Hotel"
-                    android:textSize="20sp" />
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/searchHotel"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            android:layout_weight="1">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:padding="20dp"
-                    android:src="@drawable/ic_hotel" />
-                <View
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#000" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight=".2"
-                    android:gravity="center"
-                    android:text="Search Hotel"
-                    android:textSize="20sp" />
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1">
 
         <androidx.cardview.widget.CardView
@@ -118,7 +41,7 @@
                     android:layout_height="0dp"
                     android:layout_weight=".2"
                     android:gravity="center"
-                    android:text="Add Room"
+                    android:text="Add Table"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -153,7 +76,7 @@
                     android:layout_height="0dp"
                     android:layout_weight=".2"
                     android:gravity="center"
-                    android:text="Manage Rooms"
+                    android:text="Manage Table"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -161,6 +84,10 @@
 
 
     </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
 
 </LinearLayout>

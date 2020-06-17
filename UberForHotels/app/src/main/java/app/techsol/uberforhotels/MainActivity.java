@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             if (manager.getUserType().equals("admin")){
                 startActivity(new Intent(MainActivity.this, DashboardActivity.class));
             } else {
-                startActivity(new Intent(MainActivity.this, ViewRoomsActivity.class));
+                startActivity(new Intent(MainActivity.this, ViewTableActivity.class));
 
             }
         }
@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
                 if (UserType.equals("admin")) {
                     startActivity(new Intent(MainActivity.this, DashboardActivity.class));
                 } else {
-                    startActivity(new Intent(MainActivity.this, ViewRoomsActivity.class));
+                    startActivity(new Intent(MainActivity.this, ViewTableActivity.class));
                 }
                 finish();
                 progressDialog.dismiss();

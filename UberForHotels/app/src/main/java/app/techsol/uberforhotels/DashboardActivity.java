@@ -51,32 +51,19 @@ public class DashboardActivity extends AppCompatActivity {
                 .onSameThread()
                 .check();
 
-        addHotelCV = findViewById(R.id.addHotelCV);
-        addHotelCV.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getBaseContext(), AddHotelActivity.class));
-            }
-        });
-        searchHotel = findViewById(R.id.searchHotel);
-        searchHotel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getBaseContext(), ViewHotelActivity.class));
-            }
-        });
+
         AddRoomCV = findViewById(R.id.AddRoomCV);
         AddRoomCV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getBaseContext(), AddRoomActivity.class));
+                startActivity(new Intent(getBaseContext(), AddTableActivity.class));
             }
         });
         manageRoomCV = findViewById(R.id.manageRoomCV);
         manageRoomCV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getBaseContext(), ViewRoomsActivity.class));
+                startActivity(new Intent(getBaseContext(), ViewTableActivity.class));
             }
         });
     }

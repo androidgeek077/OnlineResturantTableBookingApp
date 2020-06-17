@@ -24,14 +24,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ViewRoomsActivity">
+        <activity android:name=".ViewTableActivity">
 
         </activity>
-        <activity android:name=".AddRoomActivity" />
-        <activity android:name=".ViewHotelActivity" />
-        <activity android:name=".AddHotelActivity" />
+        <activity android:name=".AddTableActivity" />
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".DashboardActivity" />
+        <activity android:name=".DashboardActivity" >
+
+        </activity>
         <activity android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             ></activity>

@@ -10,15 +10,16 @@
         android:layout_width="match_parent"
         android:layout_height="150dp" >
         <TextView
+            android:fontFamily="@font/baloo_bhaina"
             android:textStyle="bold"
             android:textSize="36sp"
             android:layout_gravity="center"
-            android:text="View Rooms"
+            android:text="View Table"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </androidx.cardview.widget.CardView>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_vw_rooms"
+        android:id="@+id/recycler_vw_tables"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

@@ -21,7 +21,7 @@
                 android:orientation="vertical">
 
                 <TextView
-
+                    android:gravity="center_vertical"
                     android:id="@+id/RoomNoTV"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
@@ -29,17 +29,18 @@
                     android:drawableLeft="@drawable/ic_cinema"
                     android:drawablePadding="10dp"
                     android:padding="10dp"
-                    android:text="101"></TextView>
+                    android:text="101" />
 
                 <TextView
+                    android:gravity="center_vertical"
                     android:id="@+id/NofBedsTV"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:drawableLeft="@drawable/ic_bed"
+                    android:drawableLeft="@drawable/ic_chair"
                     android:drawablePadding="10dp"
                     android:padding="10dp"
-                    android:text="4"></TextView>
+                    android:text="4" />
 
 
             </LinearLayout>
@@ -51,6 +52,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:gravity="center_vertical"
                     android:id="@+id/WifiAvlTV"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
@@ -58,9 +60,10 @@
                     android:drawableLeft="@drawable/ic_wifi"
                     android:drawablePadding="10dp"
                     android:padding="10dp"
-                    android:text="Available"></TextView>
+                    android:text="Available" />
 
                 <TextView
+                    android:gravity="center_vertical"
                     android:id="@+id/RentTv"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
@@ -68,7 +71,7 @@
                     android:drawableLeft="@drawable/ic_rental"
                     android:drawablePadding="10dp"
                     android:padding="10dp"
-                    android:text="3000"></TextView>
+                    android:text="3000" />
 
 
             </LinearLayout>
@@ -84,13 +87,32 @@
         app:cardCornerRadius="5dp"
         app:cardElevation="5dp">
 
-        <TextView
-            android:id="@+id/RoomStatusTv"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Avaialable for rent">
+            android:layout_height="wrap_content">
 
-        </TextView>
+            <TextView
+                android:id="@+id/tablestatusTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:padding="10dp"
+                android:text="Avaialable for rent"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/bookingTimingTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:drawableLeft="@drawable/ic_clock"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Avaialable for rent" />
+
+        </RelativeLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>

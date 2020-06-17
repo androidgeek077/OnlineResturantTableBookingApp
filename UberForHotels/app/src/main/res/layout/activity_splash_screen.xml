@@ -15,12 +15,12 @@
         />
 
     <TextView
-
+            android:gravity="center"
         android:id="@+id/appNameTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/baloo_bhaina"
-        android:text="Uber For Hotels"
+        android:text="Online Resturant Table Booking"
         android:textSize="26sp" />
 
     <TextView
@@ -28,5 +28,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/baloo_bhaina"
-        android:text="Choose the Route, We'll pave the way" />
+        android:text="Food junction for All" />
 </LinearLayout>

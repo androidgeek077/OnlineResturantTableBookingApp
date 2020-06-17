@@ -17,14 +17,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Add Room"
+            android:fontFamily="@font/baloo_bhaina"
+            android:text="Add Table"
             android:textSize="30sp" />
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -33,10 +33,10 @@
                 android:layout_height="wrap_content">
 
                 <EditText
-                    android:id="@+id/RoomNoET"
+                    android:id="@+id/TableNoET"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Room No." />
+                    android:hint="Table No." />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -44,13 +44,14 @@
                 android:layout_height="wrap_content">
 
                 <EditText
-                        android:id="@+id/NoOfBeds"
+                        android:id="@+id/NoOfChairs"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="No. of beds" />
+                    android:hint="No. of chairs" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <RadioGroup
+
                 android:id="@+id/InternetRdoGrp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -63,8 +64,8 @@
                     android:text="Internet Availability ?" />
 
                 <RadioButton
+                    android:checked="true"
                     android:id="@+id/intenetYes"
-
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Yes">
@@ -86,26 +87,14 @@
                 android:layout_height="wrap_content">
 
                 <EditText
-                    android:id="@+id/RoomRentET"
+                    android:id="@+id/TableRentET"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Room Rent"
+                    android:hint="Table Rent"
                     android:inputType="number" />
             </com.google.android.material.textfield.TextInputLayout>
 
 
-            <Button
-                android:id="@+id/btn_selectimg"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Select Image" />
-
-
-            <ImageView
-                android:id="@+id/selectedImg"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:visibility="gone" />
 
 
         </LinearLayout>
@@ -123,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="top"
                 android:background="@drawable/btn_selector"
-                android:text="Add Room" />
+                android:text="Add Table" />
 
 
         </LinearLayout>

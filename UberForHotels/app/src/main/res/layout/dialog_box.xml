@@ -1,0 +1,40 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:hint="Enter Time Duration"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/AddTimeET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/addPlantBtn"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:background="#138A36"
+        android:text="Book table"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="40dp" />
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/CancelBtn"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="#C51E1B"
+            android:text="Cancel"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</LinearLayout>
